@@ -1,5 +1,5 @@
-# Battery-Resource-Junk-Cleaner-App
-App name is BRJ cleaner which stands for Battery, Resource and Junk Cleaner. The app optimizes phone’s battery, cleans junk (cache) files and kills apps running in background. It also has a App Manager which is used to uninstall user installed apps and Device Information which is used to display device internal information.  
+# Battery-RAM-Junk-Cleaner-App
+App name is BRJ cleaner which stands for Battery, RAM and Junk Cleaner. The app optimizes phone’s battery, cleans junk (cache) files and kills apps running in background. It also has a App Manager which is used to uninstall user installed apps and Device Information which is used to display device internal information.  
 
 ## Functionalities
 ### Junk Clean
