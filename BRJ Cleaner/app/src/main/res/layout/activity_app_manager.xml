@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.brjcleaner.InstalledAppManager">
+
+    <View
+        android:id="@+id/view_ui"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/install_app_listview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1"
+        />
+
+    <com.github.lzyzsd.circleprogress.ArcProgress
+        android:id="@+id/storage_arc_progress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="13dp"
+        app:arc_stroke_width="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        custom:arc_bottom_text="STORAGE"
+        custom:arc_bottom_text_size="14sp"
+        custom:arc_progress="55"
+        custom:arc_text_color="@android:color/white"
+        />
+
+    <ListView
+        android:id="@+id/install_app_listview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_ui"
+        app:layout_constraintVertical_weight="2"
+        />
+
+</android.support.constraint.ConstraintLayout>
